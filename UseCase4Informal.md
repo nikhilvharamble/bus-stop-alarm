@@ -1,0 +1,5 @@
+# Retrieve a New Alarm Tone #
+
+The user initiates a request for a list of alarm tones and sends it to the server. The server delivers a list of available alarms. The user checks the contents of the list and selects an alarm. The application verifies that the user does not already own the selected alarm and verifies there is enough space to store the alarm. The user initiates a request for the selected alarm to the server. The server delivers the selected alarm to the user. The user stores the alarm for future use.
+
+If there is a lost of connection between the user and the server, the process will continue from where it left of after the connection is re-established. Otherwise, the process is ended by the user. If the selected alarm is already owned by the user, the application notifies the user and the user can choose a different alarm or quit. If the selected alarm requires more space than the user has, the application notifies the user and the user can choose a different alarm or quit.
